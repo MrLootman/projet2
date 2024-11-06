@@ -1,11 +1,10 @@
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <header>
-        <h1 className="logo">JS Monorepo</h1>
-      </header>
+      <Header />
 
       <nav className="navbar">
         <ul>
